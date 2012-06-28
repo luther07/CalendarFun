@@ -1,8 +1,8 @@
 
 = simple_form_for @event do |f|
   = f.input :name
-  = f.datepicker 'start_at'
-  = f.datepicker 'end_at'
+  = f.datetime_picker 'start_at', :dateFormat => "yy-mm-dd"
+  = f.datetime_picker 'end_at', :dateFormat => "yy-mm-dd"
   = f.input :description
 
   = f.button :submit

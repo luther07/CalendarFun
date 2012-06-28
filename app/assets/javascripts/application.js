@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
+//= requere jquery-ui-timepicker-addon.js
 //= require event_calendar
 //= require_tree .
