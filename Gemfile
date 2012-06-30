@@ -9,8 +9,12 @@ gem 'haml'
 gem 'haml-rails'
 gem 'event-calendar', :require => 'event_calendar', path: 'lib/event_calendar'
 gem 'simple_form'
-gem 'sqlite3'
 gem 'jquery_datepicker'
+
+group :development, test: do
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3', '1.3.5'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
