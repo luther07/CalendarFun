@@ -7,7 +7,7 @@ gem 'rails', '3.2.6'
 
 gem 'haml'
 gem 'haml-rails'
-gem 'event-calendar', :require => 'event_calendar', path: 'lib/event_calendar'
+gem 'event-calendar', '2.3.3'
 gem 'simple_form'
 gem 'jquery_datepicker'
 
@@ -47,3 +47,4 @@ gem 'unicorn'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
